@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Layout from './organisms/layout.js'
 import {
   Carousel,
   CarouselContent,
@@ -8,18 +9,24 @@ import {
   CarouselPrevious,
 } from "./shadcn/ui/carousel.jsx"
 
-import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "./shadcn/ui/pagination.jsx"
+
+
 function App() {
   return (
-    <div className="App bg-blue-200 min-h-screen flex flex-col justify-center items-center">
+   
+
+    <Layout>
+      <Carousel>
+        <CarouselContent>
+          <CarouselItem>...</CarouselItem>
+          <CarouselItem>...</CarouselItem>
+          <CarouselItem>...</CarouselItem>
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+    </Layout>
+    /*<div className="App bg-blue-200 min-h-screen flex flex-col justify-center items-center">
       <header className="App-header">
         <img src={logo} className="App-logo w-32 h-32" alt="logo" />
         <p className="text-xl font-bold mt-4">
@@ -61,7 +68,7 @@ function App() {
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-    </div>
+    </div>*/
   );
 }
 export default App;
