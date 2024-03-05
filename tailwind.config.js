@@ -71,6 +71,12 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        'helvetica': ['HelveticaNeueLTPro', 'sans-serif'],
+        'caprica': ['CapricaScriptPersonalUse', 'sans-serif'],
+        'kozuka': ['KozMinPro-Heavy-AlphaNum', 'sans-serif']
+      }
+      
     },
   },
   plugins: [require("tailwindcss-animate")],
