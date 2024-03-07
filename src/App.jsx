@@ -1,4 +1,5 @@
 import './App.css';
+import Carousel_principal from './organisms/banner-principal.js';
 
 import Layout from './organisms/layout.js'
 import {
@@ -16,15 +17,7 @@ function App() {
    
 
     <Layout>
-      <Carousel>
-        <CarouselContent>
-          <CarouselItem>...</CarouselItem>
-          <CarouselItem>...</CarouselItem>
-          <CarouselItem>...</CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+              <Carousel_principal/>
     </Layout>
     /*<div className="App bg-blue-200 min-h-screen flex flex-col justify-center items-center">
       <header className="App-header">
