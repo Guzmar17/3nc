@@ -8,7 +8,7 @@ export default function Layout({
     return (
     <html>
         <Header/>
-        <div className="App bg-blue-200 min-h-screen flex flex-col justify-center items-center">
+        <div className="App bg-red flex flex-col justify-center items-center">
         {children}
         </div>
         <Footer/>
