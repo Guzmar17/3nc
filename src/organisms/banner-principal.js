@@ -3,8 +3,6 @@ import perrito from './../img/perrito.jpg'
 import shawarma from './../img/shawarma.jpg'
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../firebase.js';
 import {
   Carousel,
   CarouselContent,
@@ -15,16 +13,6 @@ import {
  
 export default function Carousel_principal() {
 
-    const fetchProducts = async () => {
-      const querySnapshot = await getDocs(collection(db, 'products'));
-      const products = querySnapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
-      console.log(products);
-      // Usa 'todos' en tu lógica de la aplicación
-    }
-    fetchProducts();
-
-
-    
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   )
