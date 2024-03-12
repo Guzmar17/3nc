@@ -48,6 +48,7 @@
     --ring: 222.2 84% 4.9%;
 
     --red: 2.54 76.52% 48.43%;
+    --yellow: 57 100% 56%;
  
     --radius: 0.5rem;
   }
@@ -94,6 +95,10 @@
 
   .bg-red{
     background-color: hsl(var(--red));
+    @apply text-white
+  }
+  .bg-yellow{
+    background-color: hsl(var(--yellow));
     @apply text-white
   }
 
