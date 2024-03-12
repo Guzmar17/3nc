@@ -1,6 +1,3 @@
-import burguer from './../img/hamburguesa-chesse.jpg'
-import perrito from './../img/perrito.jpg'
-import shawarma from './../img/shawarma.jpg'
 import Autoplay from "embla-carousel-autoplay"
 import * as React from "react"
 import {
@@ -27,19 +24,41 @@ return (
       
          <CarouselItem>
           
-         <div className="justify-items-center content-center "><img src={burguer} className="object-cover h-[35rem] w-screen"></img>
+         <div className="bg-fachada h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
          </div>
         </CarouselItem>
          <CarouselItem>
-         <div className="justify-items-center content-center"><img src={perrito} className="object-cover h-[35rem] w-screen"></img>
+         <div className="bg-menu h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
          </div>
           </CarouselItem>
           <CarouselItem>
-         <div className="justify-items-center content-center"><img src={shawarma} className="object-cover h-[35rem] w-screen"></img>
+          <div className="bg-niñacomiendo h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
+         </div>
+        </CarouselItem>
+        <CarouselItem>
+        <div className="bg-niñosglobos h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
+         </div>
+        </CarouselItem>
+        <CarouselItem>
+        <div className="bg-puesto h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
+         </div>
+        </CarouselItem>
+        <CarouselItem>
+        <div className="bg-salchichas h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
+         </div>
+        </CarouselItem>
+        <CarouselItem>
+        <div className="bg-trabajadora h-[40rem] bg-no-repeat	bg-center">
+         <h2 className="text-3xl font-bold tracking-tight text-center	pt-[18rem] text-7xl	">EL VARON</h2>
          </div> 
         </CarouselItem>
-  
-      
+
     </CarouselContent>
     <CarouselPrevious />
     <CarouselNext />
