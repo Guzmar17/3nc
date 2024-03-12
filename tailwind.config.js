@@ -1,3 +1,5 @@
+const { Menu } = require('lucide-react')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -17,6 +19,15 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        menu: "url('/src/img/Menu.webp')",
+        fachada: "url('/src/img/Fachada.webp')",
+        niñacomiendo: "url('/src/img/Niña Comiendo.webp')",
+        niñosglobos: "url('/src/img/Niños Globos.webp')",
+        puesto: "url('/src/img/Puesto.webp')",
+        salchichas: "url('/src/img/Salchichas.webp')",
+        trabajadora: "url('/src/img/Trabajadora.webp')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
